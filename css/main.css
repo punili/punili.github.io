@@ -872,7 +872,7 @@ footer {
 		}
 	}
 }
-@media only screen and (max-width: 540px) {  /*手機版 and (orientation: portrait)*/
+@media only screen and (max-width: 600px) {  /*手機版 and (orientation: portrait)*/
 	.img {
 		width: 100%;
 		top: -5%;
