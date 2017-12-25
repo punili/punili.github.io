@@ -872,7 +872,7 @@ footer {
 		}
 	}
 }
-@media only screen and (max-width: 480px) {  /*手機版 and (orientation: portrait)*/
+@media only screen and (max-width: 540px) {  /*手機版 and (orientation: portrait)*/
 	.img {
 		width: 100%;
 		top: -5%;
@@ -957,13 +957,13 @@ footer {
 		font-size: 12pt;				
 	}
 	.sec4 {
-		height: 1500px;
+		height: 1800px;
 	}
 	.sec4 > .secBox {
 		width: 90%;			
 		margin: 0px auto;
 		padding: 10px;
-		height: 1500px;
+		height: 1800px;
 		overflow: auto;
 	}
 	.workContentBox {
