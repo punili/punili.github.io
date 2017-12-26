@@ -305,7 +305,7 @@ body{
 		background-image: radial-gradient(circle,transparent 60%, white 80%, transparent 80%);
 	}*/
 	.skillChart {
-		width: 55%;
+		width: 60%;
 		height: 330px;
 		margin: 0 auto;
 		border: 3px solid gray;
@@ -398,7 +398,7 @@ body{
 	overflow: hidden;
 }
 	.sec4 > .secBox {
-		width: 80%;			
+		width: 85%;			
 		margin: 0px auto;
 		padding: 100px;
 		height: 100vh;
@@ -407,10 +407,9 @@ body{
 		/*background-color: #FFF;*/
 	}
 	.workContentBox {
-		width: 80%;
+		width: 85%;
 		background-color: rgba(255,255,255,0.8);
-		margin: 10px auto;
-		/*	*/
+		margin: 10px auto;		
 	}
 	.workContentBox > a {
 		text-decoration: none;
@@ -629,7 +628,7 @@ body{
 	}
 	
 	.contactImg {
-		width: 55%;
+		width: 60%;
 		margin: 0 auto;
 		padding: 2%;				
 		border: 2px solid #666;
@@ -648,18 +647,7 @@ body{
 		line-height: 1;
 		text-align: center;
 		font-family: 'Dancing Script', cursive;
-	}
-	/*.contactBar > a {
-		margin: 0 10px;
-		color: #222;
-		display: inline-block;
-	}
-	.contactBar > a:hover {
-		cursor: pointer;
-		color: #805300;
-		text-shadow: 2px 2px 3px gray;
-		transform: scale(1.2);
-	}*/
+	}	
 	
 	.contactArticle {
 		background-color: rgba(255,255,255,0.9);
@@ -667,8 +655,8 @@ body{
 		border-radius: 10px;
 		width: 45%;
 		display: inline-block;
-		padding: 50px;
-		margin: 10px 20px;
+		padding: 30px;
+		margin: 10px 10px;
 		line-height: 1.5;
 		vertical-align: top;
 	}
@@ -698,7 +686,7 @@ footer {
     line-height: 3;
     text-align: center;
 }
-@media only screen and (max-width: 840px){  /*ipad直式版*/
+@media only screen and (max-width: 840px){  /* 2/3 */
 	.img {
 		width: 60%;
 		top: -15%;
@@ -833,7 +821,7 @@ footer {
 		padding-top: 80px;		
 	}
 	.contactContent {
-		width: 90%;
+		width: 95%;
 	}
 	.contactImgWrap {
 		width: 40%;	
@@ -872,7 +860,7 @@ footer {
 		}
 	}
 }
-@media only screen and (max-width: 600px) {  /*手機版 and (orientation: portrait)*/
+@media only screen and (max-width: 600px) {  /* 1/2 版 and (orientation: portrait)*/
 	.img {
 		width: 100%;
 		top: -5%;
